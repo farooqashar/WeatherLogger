@@ -23,5 +23,5 @@ A lightweight, automated script to log weather data and sync it to GitHub.
 3. **Cron Automation**:
    To run every Friday at 10 AM, add this to your `crontab -e`:
    ```cron
-   0 10 * * 5 /bin/bash /Users/asharfarooq/Desktop/Projects/WeatherLogger/scripts/run_and_push.sh > /dev/null 2>&1
+   0 10 * * 5 .../run_and_push.sh > /dev/null 2>&1
    ```
